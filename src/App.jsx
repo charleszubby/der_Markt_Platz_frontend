@@ -18,11 +18,11 @@ import UnAuthPage from "./pages/unauth-page";
 import CheckAuth from "./components/common/check-auth";
 import VerifyEmail from "./pages/auth/VerifyEmail";
 function App() {
-  // const isAuthenticated = true;
-  // const user = {
-  //   name: "Maxx",
-  //   role: "user",
-  // };
+  const isAuthenticated = true;
+  const user = {
+    name: "Maxx",
+    role: "user",
+  };
   return (
     <div className="flex flex-col overflow-hidden bg-white">
       <Routes>
